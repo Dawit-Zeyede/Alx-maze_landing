@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+a {
+  color: #008cba;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header nav a {
+  margin: 0 10px;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+header nav a:hover {
+  background-color: #61dafb;
+}
+
+/* Intro Section */
+#intro {
+  background: url('images/cover-image.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#intro p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+#intro button {
+  background-color: #61dafb;
+  color: #282c34;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+#intro button:hover {
+  background-color: #21a1f1;
+}
+
+/* Feature Section */
+#features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.feature {
+  text-align: center;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.feature img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.feature h3 {
+  color: #333;
+  margin: 15px 0;
+}
+
+.feature p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* About Section */
+#about {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#about p, #about ul {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #555;
+}
+
+#about ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#about ul li {
+  margin: 10px 0;
+}
+
+#about a {
+  color: #008cba;
+}
+
+#about a:hover {
+  color: #005f87;
+}
+
+/* Footer */
+footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
